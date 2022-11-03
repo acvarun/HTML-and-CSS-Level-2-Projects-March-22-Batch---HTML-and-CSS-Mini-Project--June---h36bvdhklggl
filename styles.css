@@ -1,1 +1,20 @@
-
+.main{
+    margin: 15%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.sedan{
+    font-size: small;
+    background-color: orange;
+    color: white;
+}
+.suv{
+    font-size: small;
+    background-color: rgb(0, 149, 255);
+    color: white;
+}
+.luxury{
+    font-size: small;
+    background-color: rgb(0, 100, 82);
+    color: white;
+}
