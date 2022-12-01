@@ -1,5 +1,5 @@
 .main{
-    margin: 15%;
+    margin: 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,9 +12,14 @@
     font-size: small;
     background-color: orange;
     color: white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 .sedan .btn{
     color: orange;
+}
+.d{
+    padding-bottom: 4rem;
 }
 .suv{
     padding: 2rem;
@@ -30,6 +35,8 @@
     font-size: small;
     background-color: rgb(0, 100, 82);
     color: white;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
 }
 .luxury .btn{
     color: rgb(0, 100, 82);
@@ -39,4 +46,7 @@
     padding: 10px;
     width: 50%;
     border-radius: 20px;
+}
+.heading{
+    font-size: 1.5rem
 }
