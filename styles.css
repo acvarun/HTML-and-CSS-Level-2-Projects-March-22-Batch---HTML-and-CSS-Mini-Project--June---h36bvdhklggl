@@ -64,3 +64,18 @@
 .heading{
     font-size: 1.5rem
 }
+@media only screen and (max-width: 768px) {
+    .main{
+        flex-wrap: wrap;
+    }
+    .sedan{
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 8px;
+    }
+    .luxury{
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0px;
+    }
+}
